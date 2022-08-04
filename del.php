@@ -14,16 +14,7 @@ echo '
   if($stmt->rowCount() > 0){
         header('location: index.php');
     }else{
-       echo '<script>
-             setTimeout(function() {
-              swal({
-                  title: "เกิดข้อผิดพลาด",
-                  type: "error"
-              }, function() {
-                  window.location = "index.php"; //หน้าที่ต้องการให้กระโดดไป
-              });
-            }, 1000);
-        </script>';
+        header('location: error.php');
     }
 $conn = null;
 } 

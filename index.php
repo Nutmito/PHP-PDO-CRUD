@@ -61,6 +61,7 @@
             </div>
         </div>
 <script>
+    
     //ยืนยัน del function
     function delFunction() {
         Swal.fire({
