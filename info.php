@@ -24,11 +24,12 @@
     ?>
 
 
-  <img src="<?= $row['avartar'];?>" alt="Avartar User">
+    <img src="<?= $row['avartar'];?>" alt="Avartar User">
     <h2>Avartar</h2>
     <p>ชื่อ: <?= $row['name'];?></p>
     <p>นามสกุล: <?= $row['surname'];?></p>
     <p>สาขาวิชา: <?= $row['study'];?></p>
+    <p></p>
  
   </body>
 </html>

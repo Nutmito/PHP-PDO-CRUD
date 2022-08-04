@@ -5,6 +5,7 @@ $password = "";
 $database = "student";
 
 $title = "NutmitoDev";
+$icon = "https://png.pngtree.com/png-clipart/20190902/original/pngtree-cute-hand-drawn-business-card-url-small-icon-png-image_4402015.jpg";
 
 try {
   $conn = new PDO ("mysql: 

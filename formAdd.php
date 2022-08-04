@@ -8,37 +8,46 @@
     <title>เพิ่มข้อมูล</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
+  <style>
+    body {
+      background: url('https://cdn.discordapp.com/attachments/803285536399032330/941563370824421406/w3.png?width=1920&height=1080');
+    }
+  </style>
   <body>
-    <div class="container">
+
+    <div style="background: white; border-radius: 20px; padding: 30px; padding-top: 10px; margin-top: 40px;" class="container">
       <div class="row">
         <div class="col-md-4"> <br> 
           <h4>ฟอร์มเพิ่มข้อมูล</h4>
           <form action="formAdd_db.php" method="post">
+
             <div class="mb-1">
-              <label for="name" class="col-sm-2 col-form-label"> ชื่อ :  </label>
+              <label for="name" class="col-form-label"> ชื่อ :  </label>
                 <div class="col-sm-10">
                 <input type="text" name="name" class="form-control" required minlength="3" placeholder="ชื่อ">
               </div>
               </div>
 
               <div class="mb-1">
-                <label for="name" class="col-sm-2 col-form-label"> นามสกุล :  </label>
+                <label for="name" class=" col-form-label"> นามสกุล :  </label>
                 <div class="col-sm-10">
                   <input type="text" name="surname" class="form-control" required minlength="3" placeholder="นามสกุล">
                 </div>
                 </div>
 
+
               <div class="mb-1">
-                <label for="name" class="col-sm-2 col-form-label"> สาขาวิชา :  </label>
+                <label for="name" class="col-form-label"> สาขาวิชา :  </label>
                 <div class="col-sm-10">
                   <input type="text" name="study" class="form-control" required minlength="3" placeholder="สาขาวิชา">
                 </div>
-                </div><br>
+                </div> 
+                <br>
 
                 <button type="submit" class="btn btn-primary">เพิ่มข้อมูล</button>
               </form>
             </div>
           </div>
         </div>
-      </body>
+      </body> <?php include'includes/footer.php' ?> 
     </html>
