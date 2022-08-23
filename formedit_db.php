@@ -17,15 +17,15 @@
 </style>
 <body>
 <?php
- //ถ้ามีค่าส่งมาจากฟอร์ม
+ 
 if(isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['id'])) {
-    //ไฟล์เชื่อมต่อฐานข้อมูล
-     require_once 'config/config.php';
-//ประกาศตัวแปรรับค่าจากฟอร์ม
+
+require_once 'config/config.php';
+
 $id = $_POST['id'];
 $name = $_POST['name'];
 $surname = $_POST['surname'];
-//sql update
+
 $stmt = $conn->prepare("UPDATE  tb_student SET name=:name, surname=:surname WHERE id=:id");
 $stmt->bindParam(':id', $id , PDO::PARAM_INT);
 $stmt->bindParam(':name', $name , PDO::PARAM_STR);

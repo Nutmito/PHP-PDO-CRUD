@@ -65,7 +65,7 @@
 </html>
 <script>
 
-        //ยืนยัน del function
+        //ยืนยัน del function โคตรยากกกกกกกกก
         function delFunction() {
         Swal.fire({
             title: 'แน่ใจแล้วใช่ไหม?',
