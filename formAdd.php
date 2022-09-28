@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>เพิ่มข้อมูล</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <style>
-    body {
-      background: url('https://cdn.discordapp.com/attachments/803285536399032330/941563370824421406/w3.png?width=1920&height=1080');
-    }
-  </style>
-  <body>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    <div style="background: white; border-radius: 20px; padding: 30px; padding-top: 10px; margin-top: 40px;" class="container">
-      <div class="row">
-        <div class="col-md-4"> <br> 
-          <h4>ฟอร์มเพิ่มข้อมูล</h4>
-          <form action="formAdd_db.php" method="post">
+</style>
+<body>
+<div class="form-nutto">
+  <h1>Add Data!</h1>
+  <form action="add_db.php" method="POST">
+    <label for="date_order">Date</label>
+    <input type="text" name="date_order" placeholder="DateOrder">
 
-            <div class="mb-1">
-              <label for="name" class="col-form-label"> ชื่อ :  </label>
-                <div class="col-sm-10">
-                <input type="text" name="name" class="form-control" required minlength="3" placeholder="ชื่อ">
-              </div>
-              </div>
+    <label for="code">Code</label>
+    <input type="text" name="code" placeholder="Code">
 
-              <div class="mb-1">
-                <label for="name" class=" col-form-label"> นามสกุล :  </label>
-                <div class="col-sm-10">
-                  <input type="text" name="surname" class="form-control" required minlength="3" placeholder="นามสกุล">
-                </div>
-                </div>
+    <label for="name_pro">name_pro</label>
+    <input type="text" name="name_pro" placeholder="Name Product">
 
+    <label for="qty">qty</label>
+    <input type="text" name="qty" placeholder="qty">
 
-              <div class="mb-1">
-                <label for="name" class="col-form-label"> สาขาวิชา :  </label>
-                <div class="col-sm-10">
-                  <input type="text" name="study" class="form-control" required minlength="3" placeholder="สาขาวิชา">
-                </div>
-                </div> 
-                <br>
+    <label for="qty">price</label>
+    <input type="text" name="price" placeholder="price">
 
-                <button type="submit" class="btn btn-primary">เพิ่มข้อมูล</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </body> <?php include'includes/footer.php' ?> 
-    </html>
+    <label for="total">total</label>
+    <input type="text" name="total" placeholder="total">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Noto+Sans+Balinese:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.button-del {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  padding: 5px 10px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-del:hover,
+.button-del:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-del:active {
+  opacity: .5;
+}
+
+.tb-nutto {
+    border-collapse: collapse;
+    background: #fff;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Kanit', sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.tb-nutto thead tr{
+    background-color: rgb(255, 81, 0);
+    color: #fff;
+}
+
+.tb-nutto th,
+.tb-nutto td {
+    padding: 12px 15px;
+}
+
+.tb-nutto tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tb-nutto tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tb-nutto tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
+
+.animation {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-nutto {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
