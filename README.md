@@ -4,7 +4,7 @@
 
     git clone https://github.com/Nutmito/PHP-PDO-CRUD.git
 
-<h2>git clone in xampp's htdocs folder</h2>
+git clone in xampp's htdocs folder 📂
 
 ### *📜Credit*:
 
