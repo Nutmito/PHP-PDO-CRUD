@@ -2,9 +2,10 @@
 
 ### *📑How to use*:
 
+git clone in xampp's htdocs folder 📂
+
     git clone https://github.com/Nutmito/PHP-PDO-CRUD.git
 
-git clone in xampp's htdocs folder 📂
 
 ### *📜Credit*:
 
