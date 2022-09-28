@@ -1,4 +1,6 @@
-<h1>Final PHP-PDO-CRUD 😇</h1>
+<h1>Final PHP PDO CRUD 😇</h1>
+
+### *📑How to use*:
 
 ### *📜Credit*:
 
