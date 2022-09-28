@@ -2,6 +2,8 @@
 
 ### *📑How to use*:
 
+    <p>open xampp</p>
+
 ### *📜Credit*:
 
 <table>
