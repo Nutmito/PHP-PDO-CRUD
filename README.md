@@ -2,7 +2,7 @@
 
 ### *📑How to use*:
 
-    <p>open xampp</p>
+    git clone https://github.com/Nutmito/PHP-PDO-CRUD.git
 
 ### *📜Credit*:
 
