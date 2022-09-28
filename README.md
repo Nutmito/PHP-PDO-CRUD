@@ -2,9 +2,12 @@
 
 ### *📑How to use*:
 
-git clone in xampp's htdocs folder 📂
+git clone in xampp's htdocs folder. 📂
 
     git clone https://github.com/Nutmito/PHP-PDO-CRUD.git
+
+
+Import the tborder.sql file into the database.
 
 
 ### *📜Credit*:
